@@ -1,0 +1,141 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 16px;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 932px;
+  height: 69px;
+  padding: 16px 24px;
+  border-radius: 15px;
+  background-color: #f8f9fa;
+  background-position: center top;
+  background-attachment: fixed;
+  border-color: transparent;
+  border-style: solid;
+  box-shadow: 0px 0px 0px 0px rgb(219 219 219);
+  z-index: 10;
+}
+
+.header_logo {
+  width: 160px;
+  height: 43px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.header_logo img {
+  border-radius: 10px;
+}
+
+.header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 565px;
+}
+
+.header_list {
+  display: flex;
+  gap: 32px;
+}
+
+.header_list li {
+  font-size: 14px;
+  font-weight: 700;
+  color: #16352c;
+  font-family: 'Roboto',Arial,sans-serif;
+  text-transform: uppercase;
+}
+
+
+
+.main_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 90vh;
+}
+
+.main_content_logo {
+  display: flex;
+  justify-content: center;
+}
+
+.main_content_logo img {
+  width: 123px;
+  height: 113px;
+  background: #ffffff;
+}
+
+.main_content_logo_title {
+  font-size: 70px;
+  line-height: 109px;
+}
+
+.main_content_title {
+  font-size: 30px;
+  color: #242323;
+  width: 870px;
+  text-align: center;
+  font-family: 'Roboto',Arial,sans-serif;
+  line-height: 47px;
+}
+
+@media screen and (max-width: 959px){
+  header {
+    width: 600px;
+    height: 55px;
+    padding: 12px 18px;
+    position: fixed;
+    background-position: center top;
+    background-attachment: scroll;
+  }
+
+  .header_logo {
+    width: 130px;
+    height: 33px;
+  }
+
+  .header_logo img {
+    width: 130px;
+    height: 33px;
+  }
+
+  .header_content {
+    width: 385px;
+  }
+
+  .header_list {
+    gap: 16px;
+  }
+
+  .header_list li {
+    font-size: 12px;
+  }
+
+  .main_content_logo img {
+    width: 56px;
+    height: 62px;
+  }
+
+  .main_content_logo h1 {
+    font-size: 40px;
+    line-height: 62px;
+  }
+
+  .main_content_title {
+    width: 465px;
+    line-height: 25px;
+    font-size: 16px;
+  }
+}

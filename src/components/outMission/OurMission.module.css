@@ -1,0 +1,161 @@
+.mission {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #111213;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.mission h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.mission_content_block {
+  position: relative;
+}
+
+.mission_content_item {
+  width: 1055px;
+  height: 239px;
+  border-radius: 10px;
+  padding: 75px 40px;
+  background-color: rgb(21,75,101, 0.15);
+  box-shadow: 0px 30px 80px 0px rgb(219 236 245 / 15%);
+  margin-top: 100px;
+}
+
+.mission_content_text {
+  text-align: center;
+  width: 975px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.mission_content_text span {
+  color: rgb(20, 201, 77);
+}
+
+
+.mission_sub_content {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin-top: 300px;
+}
+
+.mission_sub_icons {
+  position: relative;
+  margin-left: 150px;
+}
+
+.mission_notification {
+  position: absolute;
+  left: -20px;
+  top: 115px;
+}
+
+.mission_gallery {
+  position: absolute;
+  left: 210px;
+  top: -65px;
+}
+
+.abstract {
+  position: absolute;
+  right: 125px;
+  top: -300px;
+  transform: rotate(17deg);
+}
+
+.mission_sub_item {
+  margin-left: 160px;
+  width: 600px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 24px 30px;
+  background-color: rgb(21,75,101, 0.15);
+  box-shadow: 0px 30px 80px 0px rgb(219 236 245 / 20%);
+  margin-top: 100px;
+}
+
+.mission_sub_text {
+  width: 531px;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+@media screen and (max-width: 959px) {
+  .mission {
+    padding-top: 50px;
+  }
+
+  .mission_content_item {
+    margin-top: 70px;
+    width: 588px;
+    height: 96px;
+    padding: 16px;
+  }
+
+  .mission_content_item p {
+    font-size: 20px;
+    line-height: 31px;
+    width: 556px;
+  }
+
+  .mission_sub_content {
+    position: relative;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+  }
+
+  .mission_sub_icons {
+    position: absolute;
+    top: 155px;
+    margin: 0;
+  }
+
+  .mission_notification {
+    width: 115px;
+    height: 115px;
+    top: 81px;
+  }
+
+  .mission_man {
+    width: 293px;
+    height: 293px;
+  }
+
+  .mission_gallery {
+    width: 132px;
+    height: 132px;
+    left: 160px;
+    top: -53px;
+  }
+
+  .mission_sub_item {
+    padding: 16px;
+    margin: 0;
+    width: 418px;
+    height: 83px;
+  }
+
+  .mission_sub_item p {
+    font-size: 14px;
+    line-height: 25px;
+    width: 387px;
+  }
+
+  .abstract {
+    display: none;
+  }
+}
