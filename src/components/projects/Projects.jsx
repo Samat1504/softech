@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../../App.css';
 import pro from './Projects.module.css';
 import btn from '../UI/buttons/Button.module.css';
@@ -29,8 +29,14 @@ import iphone_8_2 from '../../assets/iphone8.2.png';
 import base from '../../assets/base.png';
 import Button from "../UI/buttons/Button";
 import { t } from "i18next";
+import {useTranslation} from "react-i18next";
 
 function Projects() {
+  const {t, i18n} = useTranslation();
+
+  useEffect(() => {
+    i18n.changeLanguage("en");
+  }, []);
   return (
     <section className={pro.projects}>
       <h4>{t('project_page')}</h4>
@@ -91,10 +97,10 @@ function Projects() {
         </div>
         <div className={pro.projects_technologies_images}>
           <div className={pro.projects_technologies_images_iphone}>
-            <img src={iphone} alt="" className={pro.iphone}/>
+            <img src={iphone} alt="" className={`${pro.iphone} ${pro.iphone_res}`}/>
           </div>
           <div className={pro.projects_technologies_images_imac}>
-            <img src={imac} alt="" className={pro.imac}/>
+            <img src={imac} alt="" className={`${pro.imac} ${pro.imac_res}`}/>
           </div>
         </div>
       </div>
@@ -104,7 +110,7 @@ function Projects() {
       <div className={pro.projects_technologies}>
         <div className={pro.projects_technologies_images}>
           <div className={pro.projects_medtech_images_imac}>
-            <img src={imac} alt="" className={pro.imac}/>
+            <img src={imac} alt="" className={`${pro.imac} ${pro.imac_res}`}/>
           </div>
           <div className={pro.projects_technologies_images_phones}>
             <div className={pro.projects_technologies_images_s1}>
@@ -227,7 +233,7 @@ function Projects() {
             </div>
           </div>
           <div className={pro.project_technologies_images_imac}>
-            <img src={admin} alt="" className={pro.imac}/>
+            <img src={admin} alt="" className={`${pro.imac} ${pro.imac_res}`}/>
           </div>
         </div>
       </div>

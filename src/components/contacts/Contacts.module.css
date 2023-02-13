@@ -14,7 +14,7 @@
 .contacts_block_title h3 {
   color: #000000;
   font-size: 40px;
-  font-family: 'Roboto',Arial,sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.55;
   font-weight: 600;
 }
@@ -22,7 +22,7 @@
 .contacts_block_title p {
   color: #000000;
   font-size: 20px;
-  font-family: 'Roboto',Arial,sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.55;
   font-weight: 500;
   margin-bottom: 60px;
@@ -91,7 +91,7 @@
 .contacts h2 {
   color: #FFFFFF;
   font-size: 42px;
-  font-family: 'Arial',Arial,sans-serif;
+  font-family: 'Arial', Arial, sans-serif;
   line-height: 1.55;
   font-weight: 700;
   margin-bottom: 30px;
@@ -115,7 +115,116 @@
 .phone p {
   color: #FFFFFF;
   font-size: 18px;
-  font-family: 'Arial',Arial,sans-serif;
+  font-family: 'Arial', Arial, sans-serif;
   line-height: 1.55;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .contacts_block {
+    padding-top: 70px;
+  }
+
+  .contacts_block_title h3 {
+    font-size: 35px;
+  }
+
+  .contacts_block_title p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .contacts_block_fields {
+    margin-bottom: 100px;
+  }
+
+  .input_block {
+    margin-bottom: 25px;
+  }
+
+  .contacts h2 {
+    font-size: 37px;
+  }
+
+  .phone strong,
+  .phone p,
+  .email strong,
+  .email p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  .contacts_block {
+    padding-top: 50px;
+  }
+
+  .contacts_block_title h3 {
+    font-size: 22px;
+  }
+
+  .contacts_block_title p {
+    font-size: 14px;
+  }
+
+  .contacts_block_fields {
+    width: 300px;
+    margin-bottom: 100px;
+  }
+
+  .input_block {
+    margin-bottom: 20px;
+  }
+
+  .contacts h2 {
+    font-size: 24px;
+  }
+
+  .email strong,
+  .phone strong{
+    font-size: 12px;
+  }
+
+  .email p,
+  .phone p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 430px) {
+  .contacts_block {
+    padding-top: 50px;
+  }
+
+  .contacts_block_title h3 {
+    font-size: 22px;
+  }
+
+  .contacts_block_title p {
+    font-size: 14px;
+  }
+
+  .contacts_block_fields {
+    width: 300px;
+    margin-bottom: 100px;
+  }
+
+  .input_block {
+    margin-bottom: 20px;
+  }
+
+  .contacts h2 {
+    font-size: 24px;
+  }
+
+  .email strong,
+  .phone strong{
+    font-size: 12px;
+  }
+
+  .email p,
+  .phone p {
+    font-size: 12px;
+  }
+
 }

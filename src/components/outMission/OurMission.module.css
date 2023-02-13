@@ -93,6 +93,68 @@
   line-height: 1.75;
 }
 
+@media screen and (max-width: 1440px) {
+
+  .mission_content_item {
+    margin-top: 90px;
+    width: 900px;
+    height: 239px;
+    padding: 80px 30px;
+  }
+
+  .mission_content_item p {
+    font-size: 24px;
+    line-height: 31px;
+    width: 100%;
+  }
+
+  .mission_sub_content {
+    position: relative;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+  }
+
+  .mission_sub_icons {
+    margin: 0;
+  }
+
+  .mission_notification {
+    width: 115px;
+    height: 115px;
+    top: 81px;
+  }
+
+  .mission_man {
+    width: 293px;
+    height: 293px;
+  }
+
+  .mission_gallery {
+    width: 132px;
+    height: 132px;
+    left: 160px;
+    top: -53px;
+  }
+
+  .mission_sub_item {
+    width: 550px;
+    margin: 0;
+    padding: 24px 20px;
+    height: 125px;
+  }
+
+  .mission_sub_item p {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .abstract {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 959px) {
   .mission {
     padding-top: 50px;
@@ -157,5 +219,69 @@
 
   .abstract {
     display: none;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  .mission h2 {
+    font-size: 30px;
+  }
+
+  .mission_content_item {
+    margin-top: 50px;
+    width: 300px;
+  }
+
+  .mission_content_item p {
+    font-size: 12px;
+    line-height: normal;
+    width: 100%;
+  }
+
+  .mission_sub_content {
+    margin-top: 50px;
+  }
+
+  .mission_sub_item {
+    width: 300px;
+    height: auto;
+  }
+
+  .mission_sub_item p {
+    width: 100%;
+    font-size: 12px;
+    line-height: normal;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 430px) {
+  .mission h2 {
+    font-size: 30px;
+  }
+
+  .mission_content_item {
+    margin-top: 50px;
+    width: 300px;
+  }
+
+  .mission_content_item p {
+    font-size: 12px;
+    line-height: normal;
+    width: 100%;
+  }
+
+  .mission_sub_content {
+    margin-top: 50px;
+  }
+
+  .mission_sub_item {
+    width: 300px;
+    height: auto;
+  }
+
+  .mission_sub_item p {
+    width: 100%;
+    font-size: 12px;
+    line-height: normal;
   }
 }

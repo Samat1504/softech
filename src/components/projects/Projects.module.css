@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
-  padding: 50px 0;
+  padding: 100px 0 50px 0;
   position: relative;
 }
 
@@ -229,7 +229,43 @@
 }
 
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 1440px) {
+  .projects_technologies_images_iphone {
+    height: 322px;
+  }
+
+  .imac {
+    height: 400px;
+    width: 470px;
+  }
+
+  .projects_technologies_images {
+    gap: 24px;
+  }
+
+  .divider_right {
+    bottom: 650px;
+  }
+
+  .projects_technologies_images_imac::before {
+    width: 434px;
+    height: 260px;
+    top: 20px;
+    left: 18px;
+    background-size: contain;
+  }
+
+  .projects_medtech_images_imac::before {
+    width: 434px;
+    height: 260px;
+    top: 19px;
+    left: 18px;
+    background-size: contain;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
   .projects_technologies {
     margin-top: 100px;
     flex-direction: column;
@@ -239,6 +275,8 @@
 
   .projects_technologies_content {
     display: flex;
+    justify-content: space-between;
+    width: 610px;
   }
 
   .projects_technologies_medtech h6 {
@@ -265,11 +303,160 @@
   }
 
   .technology_block {
-    width: 70px;
+    width: 80px;
     height: 70px;
   }
 
   .technology_block p {
-    font-size: 13px;
+    font-size: 11px;
+  }
+
+  .projects_technologies_images_iphone,
+  .projects_technologies_images_phones {
+    height: 325px;
+  }
+
+  .projects_technologies_images_imac,
+  .projects_medtech_images_imac,
+  .project_technologies_images_imac {
+    height: 325px;
+  }
+
+  .projects_technologies_images_imac:before {
+    width: 379px;
+    height: 213px;
+    top: 15px;
+    left: 16px;
+  }
+
+  .projects_medtech_images_imac:before {
+    width: 365px;
+    height: 214px;
+    top: 15px;
+    left: 15px;
+    background-size: contain;
+  }
+
+  .projects_technologies_images {
+    height: 400px;
+  }
+
+  .imac_res {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ipad {
+    width: 320px;
+  }
+
+  .iphone_8 {
+    bottom: 60px;
+  }
+
+  .iphone_8 img {
+    height: 200px;
+  }
+
+  .divider_left {
+    width: 500px;
+    top: 1070px;
+  }
+
+  .divider_right {
+    width: 500px;
+    bottom: 935px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  .projects h4 {
+    font-size: 24px;
+  }
+
+  .projects_technologies {
+    margin-top: 50px;
+  }
+
+  .projects_technologies_images {
+    display: none;
+  }
+
+  .projects h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .projects_technologies_medtech_content {
+    width: 300px;
+  }
+  .medtech_content_item {
+    font-size: 12px;
+  }
+
+  .projects_technologies_medtech_content ul li {
+    font-size: 12px;
+  }
+
+  .projects_technologies_logos {
+    width: 300px;
+  }
+
+  .technology_block {
+    width: 100%;
+  }
+
+  .technology_block p {
+    font-size: 10px;
+  }
+
+  .divider_right,
+  .divider_left {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 430px) {
+  .projects h4 {
+    font-size: 24px;
+  }
+
+  .projects_technologies {
+    margin-top: 50px;
+  }
+
+  .projects_technologies_images {
+    display: none;
+  }
+
+  .projects h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .projects_technologies_medtech_content {
+    width: 300px;
+  }
+  .medtech_content_item {
+    font-size: 12px;
+  }
+
+  .projects_technologies_medtech_content ul li {
+    font-size: 12px;
+  }
+
+  .projects_technologies_logos {
+    width: 300px;
+  }
+
+  .technology_block {
+    width: 100%;
+  }
+
+  .technology_block p {
+    font-size: 10px;
+  }
+
+  .divider_right,
+  .divider_left {
+    display: none;
   }
 }

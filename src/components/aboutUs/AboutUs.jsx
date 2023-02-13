@@ -1,10 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../../App.css';
 import us from './AboutUs.module.css';
 import dream_desk from '../../assets/dream_desk.png';
 import { t } from "i18next";
+import {useTranslation} from "react-i18next";
 
 function AboutUs() {
+  const {t, i18n} = useTranslation();
+
+  useEffect(() => {
+    i18n.changeLanguage("en");
+  }, []);
   return (
     <section className={us.about_us}>
       <div className={us.about_us_garanty}>

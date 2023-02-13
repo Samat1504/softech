@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../../App.css';
 import ser from './Services.module.css';
 import btn from '../UI/buttons/Button.module.css';
@@ -26,8 +26,15 @@ import mobile_message from '../../assets/mobile_message.png';
 import Button from "../UI/buttons/Button";
 import {ImEmbed2} from 'react-icons/im';
 import { t } from "i18next";
+import {useTranslation} from "react-i18next";
 
 function Services() {
+
+  const {t, i18n} = useTranslation();
+
+  useEffect(() => {
+    i18n.changeLanguage("en");
+  }, []);
   return (
     <section className={ser.services}>
       <h2>{t('companuService')}</h2>

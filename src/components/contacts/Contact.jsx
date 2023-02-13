@@ -1,11 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../../App.css';
 import cont from './Contacts.module.css';
 import btn from '../UI/buttons/Button.module.css';
 import Button from "../UI/buttons/Button";
 import { t } from "i18next";
+import {useTranslation} from "react-i18next";
 
 function Contact() {
+  const {t, i18n} = useTranslation();
+
+  useEffect(() => {
+    i18n.changeLanguage("en");
+  }, []);
   return (
     <section className={cont.contacts_block}>
       <div className={cont.contacts_block_title}>

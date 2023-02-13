@@ -7,6 +7,7 @@ i18n
     resources: {
       ru: {
         translation: {
+          home: 'Главная',
           service: 'Услуги',
           project: 'Проекты',
           aboutUs: 'О нас',
@@ -123,6 +124,7 @@ i18n
         }
       }, en: {
         translation: {
+          home: 'Home',
           //   Main
           service: 'Services ',
           project: 'Projects',
