@@ -9,9 +9,8 @@
 
 .projects h4 {
   color: #000000;
-  font-size: 40px;
-  line-height: 1.55;
-  font-weight: 600;
+  font-size: 70px;
+  font-weight: 700;
 }
 
 .projects_technologies {
@@ -23,7 +22,7 @@
 
 .projects_technologies_medtech h6 {
   color: #111213;
-  font-size: 24px;
+  font-size: 28px;
   font-family: 'Roboto',Arial,sans-serif;
   line-height: 1.55;
   font-weight: 500;
@@ -31,7 +30,7 @@
 }
 
 .projects_technologies_medtech_content {
-  width: 432px;
+  width: 550px;
   border-radius: 10px;
   padding: 16px 16px 16px 24px;
   background-color: #eff2f5;
@@ -40,7 +39,7 @@
 
 .medtech_content_item {
   color: #111213;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Roboto',Arial,sans-serif;
   line-height: 1.55;
 }
@@ -53,6 +52,10 @@
   line-height: 1.55;
 }
 
+.projects_technologies_medtech ul li {
+  font-size: 20px;
+}
+
 .projects_technologies_medtech_dot {
   list-style: initial;
 }
@@ -60,7 +63,7 @@
 .projects_technologies_logos {
   display: grid;
   gap: 24px 0;
-  width: 200px;
+  width: 450px;
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -69,12 +72,12 @@
   align-items: center;
   justify-content: flex-end;
   flex-direction: column;
-  width: 100px;
+  width: 110px;
 }
 
 .technology_block p {
   color: #000000;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Roboto',Arial,sans-serif;
   line-height: 1.55;
   margin-top: 6px;
@@ -206,7 +209,17 @@
 
 .iphone_8 {
   position: absolute;
-  bottom: -15px;
+  bottom: 85px;
+}
+
+.ipad {
+  width: 320px;
+  height: 230px;
+}
+
+.iphone_8_1,
+.iphone_8_2 {
+  width: 120px;
 }
 
 
@@ -215,7 +228,7 @@
   width: 1000px;
   height: 3px;
   left: 0;
-  top: 900px;
+  top: 1035px;
   background-color: #000000;
 }
 

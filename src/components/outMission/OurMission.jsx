@@ -27,7 +27,6 @@ function OurMission() {
         <div className={our.mission_sub_item}>
           <p className={our.mission_sub_text}>{t('mission_2')}</p>
         </div>
-        <img src={abstract} alt="" className={our.abstract}/>
       </div>
     </section>
   );

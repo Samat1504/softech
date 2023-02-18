@@ -13,7 +13,7 @@
 .about_us_garanty h4 {
   text-align: center;
   color: #ffffff;
-  font-size: 35px;
+  font-size: 40px;
   width: 1171px;
   line-height: 1.25;
   font-weight: 600;
@@ -22,7 +22,7 @@
 }
 
 .about_us_garanty h4 span {
-  color: rgb(20, 201, 77);
+  color: #21746b;
 }
 
 .about_us_garanty_content {
@@ -32,12 +32,13 @@
 }
 
 .garanty_content_items_img {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .garanty_content_items {
-  width: 355px;
-  height: 220px;
+  width: 550px;
+  height: auto;
   border-radius: 10px;
   padding: 16px 24px;
   background-color: rgb(21, 75, 101, 0.15);
@@ -46,15 +47,16 @@
 
 .garanty_content_items p {
   color: #dbdbdb;
-  font-size: 14px;
+  font-size: 20px;
   font-family: 'Roboto', Arial, sans-serif;
-  line-height: 1.55;
+  line-height: 1.45;
 }
 
 .garanty_content_items_title {
   display: flex;
   align-items: center;
   gap: 12px;
+  margin-bottom: 16px;
 }
 
 .garanty_content_items_title span {
@@ -63,8 +65,8 @@
   justify-content: center;
   border-radius: 50%;
   background-color: #ffffff;
-  color: #14c94d;
-  font-size: 20px;
+  color: #21746b;
+  font-size: 26px;
   font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.55;
   font-weight: 700;
@@ -74,7 +76,7 @@
 
 .garanty_content_items_title p {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 24px;
   font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.55;
 }
@@ -89,18 +91,17 @@
 
 .about_us_content h3 {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 70px;
   font-family: 'Roboto', Arial, sans-serif;
-  line-height: 1.55;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
 .about_us_content h6 {
-  width: 804px;
+  width: 900px;
   text-align: center;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 28px;
   font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.55;
   font-weight: 600;
@@ -108,11 +109,12 @@
 }
 
 .about_us_content span {
-  color: rgb(20, 201, 77);
+  color: #21746b;
 }
 
 .about_us_content_items {
   width: 910px;
+  height: auto;
   text-align: center;
   padding: 24px 40px;
   border-radius: 10px;
@@ -127,7 +129,7 @@
 
 .about_us_content_items p {
   color: #dbdbdb;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.55;
   font-weight: 600;

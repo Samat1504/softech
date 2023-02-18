@@ -22,7 +22,7 @@
 
 .services_content h5 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
 }
 
@@ -40,8 +40,8 @@
 
 .services_content_item p {
   color: #dbdbdb;
-  font-size: 16px;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.55;
   font-weight: 400;
   background-position: center center;
@@ -63,7 +63,7 @@
 
 .services_content_items p {
   color: #dbdbdb;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.55;
   font-weight: 400;
@@ -72,61 +72,11 @@
   border-style: solid;
 }
 
-.services_wrapper {
-  width: 75%;
-  margin-top: 32px;
-}
-
-.site_visit,
-.corporative,
-.store {
-  display: flex;
-  justify-content: flex-end;
-  gap: 16px;
-  margin-bottom: 50px;
-  margin-top: -250px;
-}
-
-.landing_page,
-.catalog,
-.individual {
-  display: flex;
-  gap: 16px;
-}
-
-h6 {
-  font-size: 25px;
-  font-weight: 600;
-  margin-bottom: 24px;
-}
-
-.landing_page h6 {
-  color: #9d28c7;
-}
-
-.site_visit h6 {
-  color: #b37524;
-}
-
-.catalog h6 {
-  color: #bdbdbd;
-}
-
-.corporative h6 {
-  color: #e3e336;
-}
-
-.individual h6 {
-  color: #14a6a6;
-}
-
-.store h6 {
-  color: #14992a;
-}
-
-
 .services_mobile_app_block {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .services_explaining_textt,
@@ -141,7 +91,7 @@ h6 {
   width: 1039px;
   text-align: center;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 24px;
   font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.55;
   font-weight: 600;
@@ -151,7 +101,7 @@ h6 {
   width: 963px;
   text-align: center;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 24px;
   font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.55;
   font-weight: 600;
@@ -160,7 +110,7 @@ h6 {
 
 .services_explaining_textt span,
 .services_explaining_text span {
-  color: rgb(20, 201, 77);
+  color: #21746b;
 }
 
 .services_explaining_items {
@@ -168,54 +118,47 @@ h6 {
   flex-direction: column;
   position: relative;
   width: 70%;
-  margin: 150px auto auto;
-}
-
-.services_mobile_app_icons {
-
+  margin-top: 150px;
 }
 
 .cloud_up {
   position: absolute;
   width: 62px;
   height: 62px;
-  top: -80px;
-  right: 220px;
+  top: -95px;
+  right: 250px;
 }
 
 .phone {
   position: absolute;
   right: 60px;
-  top: -65px;
-  width: 379px;
-  height: 379px;
+  top: -80px;
+  width: 430px;
+  height: 430px;
 }
 
 .cloud_down {
   position: absolute;
   width: 62px;
   height: 62px;
-  right: 220px;
-  top: 280px;
+  right: 250px;
+  top: 320px;
+  transform: rotate(180deg);
 }
 
 .mobile_app_tecnolofies {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .mobile_app_tecnolofies h5 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
   margin-bottom: 28px;
 }
 
-.mobile_app_item {
-  width: 391px;
-}
-
 .mobile_app_item span {
-  color: rgb(20, 201, 77);
+  color: #21746b;
   font-weight: 700;
 }
 
@@ -232,11 +175,10 @@ h6 {
 
 .mobile_app_items {
   padding: 20px;
-  width: 340px;
 }
 
 .mobile_app_items p {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .mobile_app_items_title {
@@ -249,7 +191,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #14c94d;
+  color: #21746b;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.55;
@@ -260,7 +202,7 @@ h6 {
 }
 
 .mobile_app_items_title p {
-  font-size: 18px;
+  font-size: 22px;
   color: #ffffff;
   line-height: 1.55;
 }
@@ -276,7 +218,8 @@ h6 {
 
 .development_process_title {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
   width: 75%;
   margin-bottom: 120px;
 }
@@ -285,11 +228,11 @@ h6 {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: #20c997;
+  background-color: #21746b;
 }
 
 .development_title_content h4 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 600;
   color: #ffffff;
   line-height: 1.2;
@@ -297,20 +240,20 @@ h6 {
 
 .development_title_logo {
   display: flex;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 40px;
-  margin-left: 40px;
 }
 
 .development_logo {
   font-size: 24px;
   line-height: 1.55;
-  color: #20c997;
+  color: #21746b;
   margin-right: 5px;
 }
 
 .development_title_logo p {
-  font-size: 18px;
-  line-height: 1.55;
+  font-size: 22px;
   letter-spacing: 1.5px;
   color: #ffffff;
   font-weight: 700;
@@ -318,7 +261,8 @@ h6 {
 
 .development_process_content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 200px;
   width: 85%;
 }
 
@@ -350,7 +294,7 @@ h6 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  width: 60%;
+  width: 65%;
 }
 
 .process_content_item {
@@ -360,8 +304,8 @@ h6 {
 }
 
 .process_content_item span {
-  color: #20c997;
-  font-size: 30px;
+  color: #21746b;
+  font-size: 35px;
   line-height: 1.2;
   font-weight: 600;
 }
@@ -376,8 +320,8 @@ h6 {
   align-items: center;
   justify-content: center;
   margin-bottom: 24px;
-  width: 120px;
-  height: 90px;
+  width: 150px;
+  height: 100px;
   border-radius: 10px;
   background-color: rgb(21, 75, 101, 0.15);
   box-shadow: 0px 30px 80px 0px rgb(219 236 245 / 20%);
@@ -389,7 +333,7 @@ h6 {
 
 .content_item_block_sub_title p {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.2;
   font-weight: 600;
   margin-bottom: 7px;
@@ -399,12 +343,12 @@ h6 {
   display: block;
   width: 84%;
   height: 3px;
-  background-color: #20c997;
+  background-color: #21746b;
 }
 
 .content_item_block_text {
   color: #dbdbdb;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Arial', Arial, sans-serif;
   line-height: 1.7;
   font-weight: 400;
@@ -422,7 +366,8 @@ h6 {
 .clients_title {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 70px;
   width: 800px;
   margin-bottom: 100px;
 }
@@ -431,11 +376,11 @@ h6 {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: #20c997;
+  background-color: #21746b;
 }
 
 .clients_title h4 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 600;
   color: #ffffff;
   line-height: 1.2;
@@ -454,13 +399,23 @@ h6 {
   width: 410px;
 }
 
+.client,
+.client_message,
+.hand,
+.worker,
+.notepad,
+.nokia {
+  width: 100%;
+  height: 100%;
+}
+
 .clients_grid_items_img {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 24px;
-  width: 130px;
-  height: 90px;
+  width: 150px;
+  height: 100px;
   border-radius: 10px;
   background-color: rgb(21, 75, 101, 0.15);
   box-shadow: 0px 30px 80px 0px rgb(219 236 245 / 20%);
@@ -474,7 +429,7 @@ h6 {
 
 .clients_grid_items_text h6 {
   color: #ffffff;
-  font-size: 28px;
+  font-size: 30px;
   line-height: 1.2;
   font-weight: 600;
   margin-bottom: 0;
@@ -484,12 +439,12 @@ h6 {
   display: block;
   width: 100%;
   height: 3px;
-  background-color: #20c997;
+  background-color: #21746b;
   margin: 15px 0;
 }
 
 .clients_grid_items_text p {
-  font-size: 20px;
+  font-size: 22px;
   color: #dbdbdb;
   line-height: 1.7;
   text-align: center;

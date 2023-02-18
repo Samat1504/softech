@@ -24,7 +24,7 @@ function Main() {
       <div className={main.main_content}>
         <div className={main.main_content_logo}>
           <img src={embed} alt=""/>
-          <h1 className={main.main_content_logo_title}>SoftTech</h1>
+          <h1 className={main.main_content_logo_title}>Mountain Hub</h1>
         </div>
         <div className={main.main_content_title}>
           {t('mainPageText')}

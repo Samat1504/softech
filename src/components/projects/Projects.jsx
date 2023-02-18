@@ -228,8 +228,8 @@ function Projects() {
           <div className={pro.projects_technologies_images_ipad}>
             <img src={ipad} alt="" className={pro.ipad}/>
             <div className={pro.iphone_8}>
-              <img src={iphone_8_1} alt=""/>
-              <img src={iphone_8_2} alt=""/>
+              <img src={iphone_8_1} alt="" className={pro.iphone_8_1} />
+              <img src={iphone_8_2} alt="" className={pro.iphone_8_2} />
             </div>
           </div>
           <div className={pro.project_technologies_images_imac}>

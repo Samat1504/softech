@@ -9,6 +9,10 @@ import {useTranslation} from "react-i18next";
 function Contact() {
   const {t, i18n} = useTranslation();
 
+  const handleOpenEmail = () => {
+    const openEmail = 'https://mail.google.com/mail/u/0/#inbox'
+  }
+
   useEffect(() => {
     i18n.changeLanguage("en");
   }, []);
@@ -55,11 +59,14 @@ function Contact() {
         <div className={cont.contact_data}>
           <div className={cont.phone}>
             <strong>{t('tel')}</strong>
-            <p>+996 706 498 857</p>
+            <p><a href="tel:+996 706 498 857" style={{color: '#fff'}}>+996 706 498 857</a></p>
           </div>
           <div className={cont.email}>
             <strong>E-mail:</strong>
-            <p>info@softtech.kg</p>
+            <p onClick={(e) => {
+              window.location.href = 'mailto:talbercs@gmail.com';
+              e.preventDefault();
+            }}><a href="" style={{color: '#fff'}}>info@softtech.kg</a></p>
           </div>
         </div>
       </div>

@@ -46,90 +46,6 @@ function Services() {
         </div>
       </div>
 
-      <div className={ser.services_wrapper}>
-        <div className={ser.landing_page}>
-          <img src={landing_page} alt=""/>
-          <div>
-            <h6>Landing Page</h6>
-            <div className={ser.services_content_items}>
-              <p>{t('enumeration_text_1')}</p>
-              <p>{t('enumeration_text_2')}</p>
-            </div>
-            <div className={btn.btn_block}>
-              <Button className={`${btn.btns} ${btn.landing_page_btn}`}>обсудить проект</Button>
-              <img src={arrow} alt=""/>
-            </div>
-          </div>
-        </div>
-        <div className={ser.site_visit}>
-          <img src={site_visit} alt=""/>
-          <div>
-            <h6>{t('enumeration_text_3')}</h6>
-            <div className={ser.services_content_items}>
-              <p>{t('enumeration_text_4')}</p>
-              <p>{t('enumeration_text_5')}</p>
-            </div>
-            <div className={btn.btn_block}>
-              <Button className={`${btn.btns} ${btn.site_visit_btn}`}>обсудить проект</Button>
-              <img src={arrow} alt=""/>
-            </div>
-          </div>
-        </div>
-        <div className={ser.catalog}>
-          <img src={catalog} alt=""/>
-          <div>
-            <h6>{t('enumeration_text_6')}</h6>
-            <div className={ser.services_content_items}>
-              <p>{t('enumeration_text_7')}</p>
-            </div>
-            <div className={btn.btn_block}>
-              <Button className={`${btn.btns} ${btn.catalog_btn}`}>обсудить проект</Button>
-              <img src={arrow} alt=""/>
-            </div>
-          </div>
-        </div>
-        <div className={ser.corporative}>
-          <img src={corporative} alt=""/>
-          <div>
-            <h6>{t('enumeration_text_8')}</h6>
-            <div className={ser.services_content_items}>
-              <p>{t('enumeration_text_9')}</p>
-            </div>
-            <div className={btn.btn_block}>
-              <Button className={`${btn.btns} ${btn.corporative_btn}`}>обсудить проект</Button>
-              <img src={arrow} alt=""/>
-            </div>
-          </div>
-        </div>
-        <div className={ser.individual}>
-          <img src={individual} alt=""/>
-          <div>
-            <h6>{t('enumeration_text_10')}</h6>
-            <div className={ser.services_content_items}>
-              <p>{t('enumeration_text_11')}</p>
-            </div>
-            <div className={btn.btn_block}>
-              <Button className={`${btn.btns} ${btn.individual_btn}`}>обсудить проект</Button>
-              <img src={arrow} alt=""/>
-            </div>
-          </div>
-        </div>
-        <div className={ser.store}>
-          <img src={store} alt=""/>
-          <div>
-            <h6>{t('enumeration_text_12')}</h6>
-            <div className={ser.services_content_items}>
-              <p>{t('enumeration_text_13')}</p>
-              <p>{t('enumeration_text_14')}</p>
-            </div>
-            <div className={btn.btn_block}>
-              <Button className={`${btn.btns} ${btn.store_btn}`}>обсудить проект</Button>
-              <img src={arrow} alt=""/>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className={ser.services_mobile_app_block}>
         <div className={ser.services_explaining_text}>
           <p><span>{t('webDevText_2')}</span> {t('webDevText_2_2')}</p>
@@ -190,7 +106,7 @@ function Services() {
           <div className={ser.development_title_content}>
             <div className={ser.development_title_logo}>
               <ImEmbed2 className={ser.development_logo}/>
-              <p>SoftTech</p>
+              <p>Mountain Hub</p>
             </div>
             <h4>{t('enumeration_text_26')}</h4>
           </div>
