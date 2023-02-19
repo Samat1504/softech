@@ -300,6 +300,10 @@
     width: 298px;
   }
 
+  .projects_technologies_medtech ul li {
+    font-size: 14px;
+  }
+
   .medtech_content_item {
     font-size: 14px;
   }

@@ -31,7 +31,7 @@
   flex-direction: column;
   gap: 12px;
   padding: 20px 25px 20px 40px;
-  width: 554px;
+  width: 435px;
   height: auto;
   border-radius: 10px;
   background-color: rgb(21, 75, 101, 0.15);
@@ -119,6 +119,11 @@
   position: relative;
   width: 70%;
   margin-top: 150px;
+}
+
+.services_mobile_app_icons {
+  position: absolute;
+  right: -60px;
 }
 
 .cloud_up {
@@ -399,13 +404,25 @@
   width: 410px;
 }
 
-.client,
-.client_message,
-.hand,
-.worker,
+.client {
+  width: 120px;
+  height: 100px;
+}
+.client_message {
+  width: 100px;
+  height: 100px;
+}
+.hand {
+  width: 130px;
+  height: 100px;
+}
+.worker {
+  width: 130px;
+  height: 100px;
+}
 .notepad,
 .nokia {
-  width: 100%;
+  width: 100px;
   height: 100%;
 }
 

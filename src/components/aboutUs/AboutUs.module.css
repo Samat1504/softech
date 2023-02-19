@@ -136,9 +136,13 @@
 }
 
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1441px) {
   .about_us {
     padding-bottom: 70px;
+  }
+
+  .garanty_content_items {
+    width: 375px;
   }
 
   .garanty_content_items_img {
