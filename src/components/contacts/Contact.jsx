@@ -66,7 +66,7 @@ function Contact() {
             <p onClick={(e) => {
               window.location.href = 'mailto:talbercs@gmail.com';
               e.preventDefault();
-            }}><a href="" style={{color: '#fff'}}>info@softtech.kg</a></p>
+            }}><a href="" style={{color: '#fff'}}>info@mountainhub.kg</a></p>
           </div>
         </div>
       </div>

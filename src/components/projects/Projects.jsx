@@ -108,7 +108,7 @@ function Projects() {
       <span className={pro.divider_left}></span>
 
       <div className={pro.projects_technologies}>
-        <div className={pro.projects_technologies_images}>
+        <div className={`${pro.projects_technologies_images} ${pro.prod}`}>
           <div className={pro.projects_medtech_images_imac}>
             <img src={imac} alt="" className={`${pro.imac} ${pro.imac_res}`}/>
           </div>
@@ -224,7 +224,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className={pro.projects_technologies_images}>
+        <div className={`${pro.projects_technologies_images} ${pro.prod}`}>
           <div className={pro.projects_technologies_images_ipad}>
             <img src={ipad} alt="" className={pro.ipad}/>
             <div className={pro.iphone_8}>
